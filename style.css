@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 9vh;
+    z-index: 1;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.headerbox-title {
+    width: 20vw;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.headerbox-menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height: 30%;
+    width: 32vw;
+    list-style-type: none;
+}
+.headerbox-menu li {
+    width: 6vw;
+}
+.headerbox-menu li:nth-child(4n){
+    width: 14vw;
+}
+
+.amenu {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+.amenu:hover{
+    font-size: 25px;
+}
+main {
+
+}
+
+.mainfirst {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*);
+    background-size: cover;
+    z-index: -2;
+}
+.mainfirst-div {
+    width: 50vw;
+    height: 40vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.firstdiv-div {
+    width: 32vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.buttonfirst {
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border: solid 1px #000;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+.buttonfirst:hover{ 
+    background-color: #fff;
+}
+.mainabout{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 65vh;
+}
+h3{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.mainabout-div{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 60vw;
+    height: 30vh;
+}
+p{
+    font-size: 22px;
+}
+.buttonabout{
+    margin-top: 50px;
+    padding: 15px 100px;
+    font-size: 20px;
+    font-weight: 600;
+    border: solid 1px #000;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+.mainadote{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mainadote div{
+
+}
+.mainadotediv{
+    margin-bottom: 35px;
+    width: 45vw;
+}
+h4{
+    font-size: 30px;
+}
+.mainadotediv p {
+
+}
+.mainadote-carrossel{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.adotecarrossel-box{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 16vw;
+    height: 26vh;
+}
+.adotecarrossel-box div{
+    width: 100%;
+    height: 160px;
+}
+.adotecarrossel-box img{
+    width: 230px;
+    height: 100%;
+}
+.adotecarrossel-box p {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+}
+.adotecarrossel-box button{
+    margin-top: 12px;
+    width: 80px;
+    padding: 2px 10px;
+    font-size: 10px;
+    font-weight: 600;
+    border: solid 1px #000;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+.vejamais{
+
+}
+footer{
+    background-color: #ccc;
+    width: 100vw;
+    height: 13vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.footerbox{
+    width: 30vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.box-icones{
+    width: 80px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.box-icones img{
+    width: 20px;
+    height: 20px;
+    /* margin: 6px 0 0 0; */
+}
+.footerbox-div{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+.footerbox-div p{
+    font-size: 15px;
+}
+.footerbox ul{
+
+}
+.footerbox ul li{
+    
+    list-style-type: none;
+}
+.footerbox ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
